@@ -1,0 +1,14 @@
+﻿@model NodeViewModel
+
+<li>
+    @Model.nodeName
+    @if (Model.children != null && Model.children.Any())
+    {
+        <ul>
+            @foreach (var child in Model.children)
+            {
+                @Html.Partial("_NodePartial", child)
+            }
+        </ul>
+    }
+</li>

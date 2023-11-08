@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApplication1.Models.Node>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Tree Structure</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nodeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.parentNodeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.startdate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nodeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.parentNodeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.isActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.startdate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.nodeId">Edit Node</a> |
+                <a asp-action="Details" asp-route-id="@item.nodeId">Node Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.nodeId">Delete Node</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

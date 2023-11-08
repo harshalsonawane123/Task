@@ -1,0 +1,15 @@
+﻿@model List<NodeViewModel>
+@using Microsoft.AspNetCore.Html
+
+@using System.Text
+
+<h2>Active Nodes</h2>
+
+<div id="treeview">
+    <ul>
+        @foreach (var node in Model)
+        {
+            @Html.Partial("_NodePartial", node)
+        }
+    </ul>
+</div>

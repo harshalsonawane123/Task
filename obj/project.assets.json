@@ -1,0 +1,2318 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.EntityFrameworkCore >= 7.0.11",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.11",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core >= 7.0.10",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\Downloads\\Tree_Structure_Using_MVC\\Tree_Structure_Using_MVC\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "C:\\Users\\user\\Downloads\\Tree_Structure_Using_MVC\\Tree_Structure_Using_MVC\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Downloads\\Tree_Structure_Using_MVC\\Tree_Structure_Using_MVC\\WebApplication1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[7.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.11, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": {
+            "target": "Package",
+            "version": "[7.0.10, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[7.0.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Design' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Design'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.SqlServer' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.SqlServer'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Design' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Design'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Core' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Sqlite' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Sqlite'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Design' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Design'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.SqlServer' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.SqlServer'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Tools' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Tools'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Core' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Tools' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Tools'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Design' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Design'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Sqlite' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Sqlite'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGenerators.Mvc' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGenerators.Mvc'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGenerators.Mvc"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGenerators.Mvc' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGenerators.Mvc'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGenerators.Mvc"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Relational'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Relational'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Relational'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Relational'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.bundle_e_sqlite3' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.bundle_e_sqlite3'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.bundle_e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.bundle_e_sqlite3' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.bundle_e_sqlite3'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.bundle_e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Templating' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Templating'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Templating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Templating' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Templating'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Templating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.DotNet.Scaffolding.Shared' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.DotNet.Scaffolding.Shared'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.DotNet.Scaffolding.Shared"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.DotNet.Scaffolding.Shared' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.DotNet.Scaffolding.Shared'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.DotNet.Scaffolding.Shared"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.DotNet.Scaffolding.Shared' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.DotNet.Scaffolding.Shared'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.DotNet.Scaffolding.Shared"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.DotNet.Scaffolding.Shared' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.DotNet.Scaffolding.Shared'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.DotNet.Scaffolding.Shared"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mono.TextTemplating' from remote source 'https://packagesource/FindPackagesById()?id='Mono.TextTemplating'&semVerLevel=2.0.0'.",
+      "libraryId": "Mono.TextTemplating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mono.TextTemplating' from remote source 'https://packagesource/FindPackagesById()?id='Mono.TextTemplating'&semVerLevel=2.0.0'.",
+      "libraryId": "Mono.TextTemplating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Razor' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Razor'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Razor"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Razor' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Razor'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Razor"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Sqlite.Core' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Sqlite.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Sqlite.Core' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.EntityFrameworkCore.Sqlite.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Newtonsoft.Json' from remote source 'https://packagesource/FindPackagesById()?id='Newtonsoft.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Newtonsoft.Json' from remote source 'https://packagesource/FindPackagesById()?id='Newtonsoft.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Razor.Language' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.Razor.Language'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.Razor.Language"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.Razor.Language' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.Razor.Language'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.Razor.Language"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyModel' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.DependencyModel'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyModel' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.DependencyModel'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Utils' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Utils'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Utils"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.Utils' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.Utils'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Utils"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Data.SqlClient'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Data.SqlClient'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.lib.e_sqlite3' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.lib.e_sqlite3'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.lib.e_sqlite3' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.lib.e_sqlite3'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.provider.e_sqlite3' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.provider.e_sqlite3'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.provider.e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.provider.e_sqlite3' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.provider.e_sqlite3'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.provider.e_sqlite3"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp.Features' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp.Features'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Features"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp.Features' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp.Features'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Features"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.ProjectModel' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.ProjectModel'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.ProjectModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.ProjectModel' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.ProjectModel'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.ProjectModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.Sqlite.Core' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Data.Sqlite.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Data.Sqlite.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.Sqlite.Core' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Data.Sqlite.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Data.Sqlite.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp.Workspaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp.Workspaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp.Workspaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp.Workspaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Build' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Build'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Build"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Build' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Build'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Build"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ja' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ja'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ja"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.id' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.id'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.id"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ja' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ja'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ja"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.id' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.id'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.id"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sr-Latn' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sr-Latn'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sr-Latn"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.af' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.af'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.af"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.af' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.af'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.af"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sr-Latn' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sr-Latn'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sr-Latn"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sl' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sl'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ru' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ru'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ru"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sl' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sl'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ru' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ru'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ru"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.el' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.el'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.el"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.el' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.el'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.el"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ar' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ar'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ar"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ar' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ar'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ar"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.de' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.de'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.de"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.de' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.de'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.de"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.he' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.he'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.he"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.cs' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.cs'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.cs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.he' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.he'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.he"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.cs' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.cs'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.cs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fa' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fa'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fa"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.bg' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.bg'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.bg"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fa' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fa'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fa"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.bg' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.bg'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.bg"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.az' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.az'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.az"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.bn-BD' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.bn-BD'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.bn-BD"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.az' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.az'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.az"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.bn-BD' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.bn-BD'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.bn-BD"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fr-BE' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fr-BE'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fr-BE"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fr-BE' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fr-BE'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fr-BE"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.zh-Hant' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.zh-Hant'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.zh-Hant"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.zh-Hant' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.zh-Hant'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.zh-Hant"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.pt' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.pt'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.pt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.pt' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.pt'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.pt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.nb-NO' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.nb-NO'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.nb-NO"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.nb-NO' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.nb-NO'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.nb-NO"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.nl' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.nl'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.nl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.nl' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.nl'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.nl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.nb' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.nb'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.nb"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.nb' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.nb'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.nb"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.pl' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.pl'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.pl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.pl' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.pl'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.pl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.lv' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.lv'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.lv"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.it' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.it'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.it"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.lv' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.lv'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.lv"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.it' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.it'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.it"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.is' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.is'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.is"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.is' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.is'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.is"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ku' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ku'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ku"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ku' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ku'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ku"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ko-KR' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ko-KR'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ko-KR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ko-KR' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ko-KR'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ko-KR"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ms-MY' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ms-MY'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ms-MY"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ms-MY' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ms-MY'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ms-MY"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.hu' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.hu'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.hu"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.mt' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.mt'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.mt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.mt' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.mt'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.mt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.hy' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.hy'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.hy"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.hy' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.hy'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.hy"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.da' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.da'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.da"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.da' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.da'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.da"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sv' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sv'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sv"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sv' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sv'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sv"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.tr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.tr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.tr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.tr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.tr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.tr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.uk' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.uk'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.uk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.uk' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.uk'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.uk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.th-TH' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.th-TH'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.th-TH"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.th-TH' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.th-TH'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.th-TH"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.core' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.core'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'SQLitePCLRaw.core' from remote source 'https://packagesource/FindPackagesById()?id='SQLitePCLRaw.core'&semVerLevel=2.0.0'.",
+      "libraryId": "SQLitePCLRaw.core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.hr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.hr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.hr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.hr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.hr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.hr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fi-FI' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fi-FI'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fi-FI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.fi-FI' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.fi-FI'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.fi-FI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.es' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.es'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.es"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.es' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.es'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.es"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sk' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sk'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sk' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sk'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ro' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ro'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ro"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.ro' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.ro'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.ro"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.zh-Hans' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.zh-Hans'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.zh-Hans"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.zh-Hans' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.zh-Hans'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.zh-Hans"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.sr' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.sr'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.sr"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.uz-Cyrl-UZ' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.uz-Cyrl-UZ'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.uz-Cyrl-UZ"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.uz-Cyrl-UZ' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.uz-Cyrl-UZ'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.uz-Cyrl-UZ"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.vi' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.vi'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.vi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.zh-CN' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.zh-CN'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.zh-CN"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.zh-CN' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.zh-CN'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.zh-CN"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.uz-Latn-UZ' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.uz-Latn-UZ'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.uz-Latn-UZ"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core.uz-Latn-UZ' from remote source 'https://packagesource/FindPackagesById()?id='Humanizer.Core.uz-Latn-UZ'&semVerLevel=2.0.0'.",
+      "libraryId": "Humanizer.Core.uz-Latn-UZ"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.CodeDom' from remote source 'https://packagesource/FindPackagesById()?id='System.CodeDom'&semVerLevel=2.0.0'.",
+      "libraryId": "System.CodeDom"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.CodeDom' from remote source 'https://packagesource/FindPackagesById()?id='System.CodeDom'&semVerLevel=2.0.0'.",
+      "libraryId": "System.CodeDom"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.Configuration.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Extensions.Configuration.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.DependencyResolver.Core' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.DependencyResolver.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.DependencyResolver.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.DependencyResolver.Core' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.DependencyResolver.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.DependencyResolver.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.LibraryModel' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.LibraryModel'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.LibraryModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.LibraryModel' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.LibraryModel'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.LibraryModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Protocol' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Protocol'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Protocol"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Protocol' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Protocol'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Protocol"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Configuration' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Configuration'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Configuration' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Configuration'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp.Workspaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp.Workspaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.CSharp.Workspaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.CSharp.Workspaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Features' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Features'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Features"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Features' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Features'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Features"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Workspaces.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Workspaces.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Workspaces.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Workspaces.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Workspaces.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Common' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Common' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Versioning' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Versioning'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Versioning"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Versioning' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Versioning'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Versioning"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Packaging' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Packaging'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Packaging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Packaging' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Packaging'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Packaging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Frameworks' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Frameworks'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Frameworks' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Frameworks'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Pkcs' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.Pkcs'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.Pkcs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Cng' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.Cng'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.Cng"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Pkcs' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.Pkcs'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.Pkcs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Cng' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.Cng'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.Cng"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Threading.Tasks.Extensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Threading.Tasks.Extensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Threading.Tasks.Extensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Threading.Tasks.Extensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Analyzers' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Analyzers'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Analyzers' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Analyzers'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Analyzers' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Analyzers'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Analyzers' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Analyzers'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Reflection.Metadata' from remote source 'https://packagesource/FindPackagesById()?id='System.Reflection.Metadata'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Reflection.Metadata"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Collections.Immutable' from remote source 'https://packagesource/FindPackagesById()?id='System.Collections.Immutable'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Collections.Immutable"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Reflection.Metadata' from remote source 'https://packagesource/FindPackagesById()?id='System.Reflection.Metadata'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Reflection.Metadata"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Collections.Immutable' from remote source 'https://packagesource/FindPackagesById()?id='System.Collections.Immutable'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Collections.Immutable"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Collections.Immutable' from remote source 'https://packagesource/FindPackagesById()?id='System.Collections.Immutable'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Collections.Immutable"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Collections.Immutable' from remote source 'https://packagesource/FindPackagesById()?id='System.Collections.Immutable'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Collections.Immutable"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encoding.CodePages'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encoding.CodePages'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encoding.CodePages'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encoding.CodePages'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Formats.Asn1' from remote source 'https://packagesource/FindPackagesById()?id='System.Formats.Asn1'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Formats.Asn1"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Formats.Asn1' from remote source 'https://packagesource/FindPackagesById()?id='System.Formats.Asn1'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Formats.Asn1"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Runtime.CompilerServices.Unsafe' from remote source 'https://packagesource/FindPackagesById()?id='System.Runtime.CompilerServices.Unsafe'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IO.Pipelines' from remote source 'https://packagesource/FindPackagesById()?id='System.IO.Pipelines'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IO.Pipelines"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IO.Pipelines' from remote source 'https://packagesource/FindPackagesById()?id='System.IO.Pipelines'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IO.Pipelines"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.Convention' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.Convention'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.Convention"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.Convention' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.Convention'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.Convention"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.Hosting' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.Hosting'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.Hosting"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.Hosting' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.Hosting'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.Hosting"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.Runtime' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.Runtime'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.Runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.AttributedModel' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.AttributedModel'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.AttributedModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.Runtime' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.Runtime'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.Runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.AttributedModel' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.AttributedModel'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.AttributedModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.TypedParts' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.TypedParts'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.TypedParts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Composition.TypedParts' from remote source 'https://packagesource/FindPackagesById()?id='System.Composition.TypedParts'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Composition.TypedParts"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encoding.CodePages'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encoding.CodePages'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.DiaSymReader' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.DiaSymReader'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.DiaSymReader"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.DiaSymReader' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.DiaSymReader'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.DiaSymReader"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.AnalyzerUtilities' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.AnalyzerUtilities'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.AnalyzerUtilities"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.AnalyzerUtilities' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.AnalyzerUtilities'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.AnalyzerUtilities"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Elfie' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Elfie'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Elfie"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Elfie' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Elfie'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Elfie"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Scripting.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Scripting.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Scripting.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeAnalysis.Scripting.Common' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeAnalysis.Scripting.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeAnalysis.Scripting.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.Platforms' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NETCore.Platforms'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.Platforms' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NETCore.Platforms'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encodings.Web' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Encodings.Web'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Data.DataSetExtensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Data.DataSetExtensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Data.DataSetExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Data.DataSetExtensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Data.DataSetExtensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Data.DataSetExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Identity.Client' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Identity.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Identity.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Identity.Client' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Identity.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Identity.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Buffers' from remote source 'https://packagesource/FindPackagesById()?id='System.Buffers'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Buffers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Buffers' from remote source 'https://packagesource/FindPackagesById()?id='System.Buffers'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Buffers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient.SNI.runtime' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Data.SqlClient.SNI.runtime'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Data.SqlClient.SNI.runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient.SNI.runtime' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Data.SqlClient.SNI.runtime'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Data.SqlClient.SNI.runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.SqlServer.Server' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.SqlServer.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.SqlServer.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.SqlServer.Server' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.SqlServer.Server'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.SqlServer.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.JsonWebTokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.JsonWebTokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.JsonWebTokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.JsonWebTokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Azure.Identity' from remote source 'https://packagesource/FindPackagesById()?id='Azure.Identity'&semVerLevel=2.0.0'.",
+      "libraryId": "Azure.Identity"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Azure.Identity' from remote source 'https://packagesource/FindPackagesById()?id='Azure.Identity'&semVerLevel=2.0.0'.",
+      "libraryId": "Azure.Identity"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Principal.Windows' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Principal.Windows'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Principal.Windows' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Principal.Windows'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Diagnostics.DiagnosticSource' from remote source 'https://packagesource/FindPackagesById()?id='System.Diagnostics.DiagnosticSource'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Diagnostics.DiagnosticSource' from remote source 'https://packagesource/FindPackagesById()?id='System.Diagnostics.DiagnosticSource'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Win32.Registry' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Win32.Registry'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Win32.Registry"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Win32.Registry' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Win32.Registry'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Win32.Registry"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Runtime.Caching' from remote source 'https://packagesource/FindPackagesById()?id='System.Runtime.Caching'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Runtime.Caching"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols.OpenIdConnect' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols.OpenIdConnect'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Runtime.Caching' from remote source 'https://packagesource/FindPackagesById()?id='System.Runtime.Caching'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Runtime.Caching"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols.OpenIdConnect' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols.OpenIdConnect'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Permissions' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Permissions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Permissions' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Permissions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Permissions' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Permissions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Permissions' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Permissions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://packagesource/FindPackagesById()?id='System.Text.Json'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Protocols'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://packagesource/FindPackagesById()?id='System.IdentityModel.Tokens.Jwt'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://packagesource/FindPackagesById()?id='System.IdentityModel.Tokens.Jwt'&semVerLevel=2.0.0'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.Platforms' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NETCore.Platforms'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.Platforms' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NETCore.Platforms'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Principal.Windows' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Principal.Windows'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Principal.Windows' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Principal.Windows'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.AccessControl' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.AccessControl'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.AccessControl' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.AccessControl'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.AccessControl' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.AccessControl'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.AccessControl' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.AccessControl'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Tokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Tokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Tokens' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Tokens'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Identity.Client.Extensions.Msal' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Identity.Client.Extensions.Msal'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Identity.Client.Extensions.Msal"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Azure.Core' from remote source 'https://packagesource/FindPackagesById()?id='Azure.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Azure.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Azure.Core' from remote source 'https://packagesource/FindPackagesById()?id='Azure.Core'&semVerLevel=2.0.0'.",
+      "libraryId": "Azure.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Identity.Client.Extensions.Msal' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Identity.Client.Extensions.Msal'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Identity.Client.Extensions.Msal"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Bcl.AsyncInterfaces' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Bcl.AsyncInterfaces'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Logging' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Logging' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Logging'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Windows.Extensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Windows.Extensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Windows.Extensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Windows.Extensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Drawing.Common' from remote source 'https://packagesource/FindPackagesById()?id='System.Drawing.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Drawing.Common' from remote source 'https://packagesource/FindPackagesById()?id='System.Drawing.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Numerics.Vectors' from remote source 'https://packagesource/FindPackagesById()?id='System.Numerics.Vectors'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Numerics.Vectors"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Numerics.Vectors' from remote source 'https://packagesource/FindPackagesById()?id='System.Numerics.Vectors'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Numerics.Vectors"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory.Data' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory.Data'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Memory.Data' from remote source 'https://packagesource/FindPackagesById()?id='System.Memory.Data'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Memory.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Abstractions' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.IdentityModel.Abstractions'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Win32.SystemEvents' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Win32.SystemEvents'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Win32.SystemEvents' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Win32.SystemEvents'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CSharp' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CSharp'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CSharp' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CSharp'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Reflection.Metadata' from remote source 'https://packagesource/FindPackagesById()?id='System.Reflection.Metadata'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Reflection.Metadata"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Reflection.Metadata' from remote source 'https://packagesource/FindPackagesById()?id='System.Reflection.Metadata'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Reflection.Metadata"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.ProtectedData' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Cryptography.ProtectedData'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Permissions' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Permissions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Permissions' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.Permissions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.AccessControl' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.AccessControl'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.AccessControl' from remote source 'https://packagesource/FindPackagesById()?id='System.Security.AccessControl'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Windows.Extensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Windows.Extensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Windows.Extensions' from remote source 'https://packagesource/FindPackagesById()?id='System.Windows.Extensions'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Drawing.Common' from remote source 'https://packagesource/FindPackagesById()?id='System.Drawing.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Drawing.Common' from remote source 'https://packagesource/FindPackagesById()?id='System.Drawing.Common'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Win32.SystemEvents' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Win32.SystemEvents'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Win32.SystemEvents' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Win32.SystemEvents'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NET.StringTools' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NET.StringTools'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NET.StringTools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NET.StringTools' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NET.StringTools'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NET.StringTools"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Build.Framework' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Build.Framework'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Build.Framework"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Build.Framework' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.Build.Framework'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.Build.Framework"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Threading.Tasks.Dataflow' from remote source 'https://packagesource/FindPackagesById()?id='System.Threading.Tasks.Dataflow'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Threading.Tasks.Dataflow"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Reflection.MetadataLoadContext' from remote source 'https://packagesource/FindPackagesById()?id='System.Reflection.MetadataLoadContext'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Reflection.MetadataLoadContext"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Threading.Tasks.Dataflow' from remote source 'https://packagesource/FindPackagesById()?id='System.Threading.Tasks.Dataflow'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Threading.Tasks.Dataflow"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Reflection.MetadataLoadContext' from remote source 'https://packagesource/FindPackagesById()?id='System.Reflection.MetadataLoadContext'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Reflection.MetadataLoadContext"
+    }
+  ]
+}
